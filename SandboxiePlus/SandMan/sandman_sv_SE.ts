@@ -3227,22 +3227,22 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
 <context>
     <name>CSandBox</name>
     <message>
-        <location filename="SandMan.cpp" line="4481"/>
+        <location filename="SandMan.cpp" line="4492"/>
         <source>Waiting for folder: %1</source>
         <translation>Väntar på mapp: %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4482"/>
+        <location filename="SandMan.cpp" line="4493"/>
         <source>Deleting folder: %1</source>
         <translation>Raderar mapp: %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4483"/>
+        <location filename="SandMan.cpp" line="4494"/>
         <source>Merging folders: %1 &amp;gt;&amp;gt; %2</source>
         <translation>Sammanför mappar: %1 &amp;gt;&amp;gt; %2</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4484"/>
+        <location filename="SandMan.cpp" line="4495"/>
         <source>Finishing Snapshot Merge...</source>
         <translation>Slutför sammanförande av ögonblicksbilder...</translation>
     </message>
@@ -3332,38 +3332,38 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
         <translation>VARNING: Sandboxie-Plus.ini i %1 kan inte skrivas till, inställningarna kommer inte sparas.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="192"/>
-        <location filename="SandMan.cpp" line="2418"/>
+        <location filename="SandMan.cpp" line="193"/>
+        <location filename="SandMan.cpp" line="2424"/>
         <source>Sandboxie-Plus v%1</source>
         <translation>Sandboxie-Plus v%1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1081"/>
+        <location filename="SandMan.cpp" line="1082"/>
         <source>Click to download update</source>
         <translation>Klicka för att nerladda uppdateringen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1880"/>
+        <location filename="SandMan.cpp" line="1881"/>
         <source>No Force Process</source>
         <translation>Inget Tvinga process</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2430"/>
+        <location filename="SandMan.cpp" line="2436"/>
         <source>%1 Directory: %2</source>
         <translation>%1 Katalog: %2</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2430"/>
+        <location filename="SandMan.cpp" line="2436"/>
         <source>Application</source>
         <translation>Applikation</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2430"/>
+        <location filename="SandMan.cpp" line="2436"/>
         <source>Installation</source>
         <translation>Installation</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3188"/>
+        <location filename="SandMan.cpp" line="3194"/>
         <source>The evaluation period has expired!!!</source>
         <translation>Utvärderingsperioden har utgått!</translation>
     </message>
@@ -3377,76 +3377,76 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
         <translation type="vanished">Importerar :%1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3353"/>
+        <location filename="SandMan.cpp" line="3359"/>
         <source>No Recovery</source>
         <translation>Inget återställande</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3359"/>
+        <location filename="SandMan.cpp" line="3365"/>
         <source>No Messages</source>
         <translation>Inga meddelanden</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3523"/>
+        <location filename="SandMan.cpp" line="3529"/>
         <source>Maintenance operation completed</source>
         <translation>Underhållsoperation avklarad</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4068"/>
+        <location filename="SandMan.cpp" line="4074"/>
         <source>Failed to create the box archive</source>
         <translation>Lyckades inte skapa lådarkivet</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4070"/>
+        <location filename="SandMan.cpp" line="4076"/>
         <source>Failed to unpack the box archive</source>
         <translation>Lyckades inte packa upp lådarkivet</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4071"/>
+        <location filename="SandMan.cpp" line="4077"/>
         <source>The selected 7z file is NOT a box archive</source>
         <translation>Den valda 7z-filen är INTE ett lådarkiv</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4326"/>
+        <location filename="SandMan.cpp" line="4337"/>
         <source>Reset Columns</source>
         <translation>Återställ kolumner</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4327"/>
+        <location filename="SandMan.cpp" line="4338"/>
         <source>Copy Cell</source>
         <translation>Kopiera cellen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4328"/>
+        <location filename="SandMan.cpp" line="4339"/>
         <source>Copy Row</source>
         <translation>Kopiera raden</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4329"/>
+        <location filename="SandMan.cpp" line="4340"/>
         <source>Copy Panel</source>
         <translation>Kopiera panelen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="506"/>
-        <location filename="SandMan.cpp" line="728"/>
+        <location filename="SandMan.cpp" line="507"/>
+        <location filename="SandMan.cpp" line="729"/>
         <source>&amp;Sandbox</source>
         <translation>&amp;Sandlåda</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="507"/>
-        <location filename="SandMan.cpp" line="1000"/>
+        <location filename="SandMan.cpp" line="508"/>
         <location filename="SandMan.cpp" line="1001"/>
+        <location filename="SandMan.cpp" line="1002"/>
         <source>Create New Box</source>
         <translation>Skapa ny låda</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="508"/>
+        <location filename="SandMan.cpp" line="509"/>
         <source>Create Box Group</source>
         <translation>Skapa lådgrupp</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="514"/>
-        <location filename="SandMan.cpp" line="658"/>
+        <location filename="SandMan.cpp" line="515"/>
+        <location filename="SandMan.cpp" line="659"/>
         <source>Terminate All Processes</source>
         <translation>Avsluta alla processer</translation>
     </message>
@@ -3455,118 +3455,118 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
         <translation type="vanished">Fönsterfinnare</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="608"/>
-        <location filename="SandMan.cpp" line="610"/>
-        <location filename="SandMan.cpp" line="660"/>
-        <location filename="SandMan.cpp" line="662"/>
+        <location filename="SandMan.cpp" line="609"/>
+        <location filename="SandMan.cpp" line="611"/>
+        <location filename="SandMan.cpp" line="661"/>
+        <location filename="SandMan.cpp" line="663"/>
         <source>Pause Forcing Programs</source>
         <translation>Pausa programtvingande</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="614"/>
+        <location filename="SandMan.cpp" line="615"/>
         <source>Disable File Recovery</source>
         <translation>Inaktivera filåterställande</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="617"/>
+        <location filename="SandMan.cpp" line="618"/>
         <source>Disable Message Popup</source>
         <oldsource>Disable Message PopUp</oldsource>
         <translation>Inaktivera meddelande-popup</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="432"/>
+        <location filename="SandMan.cpp" line="433"/>
         <source>&amp;Maintenance</source>
         <translation>&amp;Underhåll</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="433"/>
+        <location filename="SandMan.cpp" line="434"/>
         <source>Connect</source>
         <translation>Anslut</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="434"/>
+        <location filename="SandMan.cpp" line="435"/>
         <source>Disconnect</source>
         <translation>Koppla ifrån</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="436"/>
+        <location filename="SandMan.cpp" line="437"/>
         <source>Stop All</source>
         <translation>Stoppa alla</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="437"/>
+        <location filename="SandMan.cpp" line="438"/>
         <source>&amp;Advanced</source>
         <translation>&amp;Avancerad</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="438"/>
+        <location filename="SandMan.cpp" line="439"/>
         <source>Install Driver</source>
         <translation>Installera drivrutinen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="439"/>
+        <location filename="SandMan.cpp" line="440"/>
         <source>Start Driver</source>
         <translation>Starta drivrutinen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="440"/>
+        <location filename="SandMan.cpp" line="441"/>
         <source>Stop Driver</source>
         <translation>Stoppa drivrutinen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="441"/>
+        <location filename="SandMan.cpp" line="442"/>
         <source>Uninstall Driver</source>
         <translation>Avinstallera drivrutinen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="443"/>
+        <location filename="SandMan.cpp" line="444"/>
         <source>Install Service</source>
         <translation>Installera tjänst</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="444"/>
+        <location filename="SandMan.cpp" line="445"/>
         <source>Start Service</source>
         <translation>Starta tjänst</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="445"/>
+        <location filename="SandMan.cpp" line="446"/>
         <source>Stop Service</source>
         <translation>Stoppa tjänst</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="446"/>
+        <location filename="SandMan.cpp" line="447"/>
         <source>Uninstall Service</source>
         <translation>Avinstallera tjänst</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="463"/>
+        <location filename="SandMan.cpp" line="464"/>
         <source>Setup Wizard</source>
         <translation>Installationsguide</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="466"/>
+        <location filename="SandMan.cpp" line="467"/>
         <source>Uninstall All</source>
         <translation>Avinstallera alla</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="542"/>
-        <location filename="SandMan.cpp" line="698"/>
+        <location filename="SandMan.cpp" line="543"/>
+        <location filename="SandMan.cpp" line="699"/>
         <source>Exit</source>
         <translation>Avsluta</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="545"/>
-        <location filename="SandMan.cpp" line="700"/>
+        <location filename="SandMan.cpp" line="546"/>
+        <location filename="SandMan.cpp" line="701"/>
         <source>&amp;View</source>
         <translation>&amp;Översikt</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="472"/>
+        <location filename="SandMan.cpp" line="473"/>
         <source>Simple View</source>
         <translation>Enkel översikt</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="473"/>
+        <location filename="SandMan.cpp" line="474"/>
         <source>Advanced View</source>
         <translation>Avancerad översikt</translation>
     </message>
@@ -3575,87 +3575,87 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
         <translation type="vanished">Classic:s vy</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="478"/>
+        <location filename="SandMan.cpp" line="479"/>
         <source>Always on Top</source>
         <translation>Alltid överst</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="509"/>
+        <location filename="SandMan.cpp" line="510"/>
         <source>Import Box</source>
         <translation>Importera låda</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="517"/>
-        <location filename="SandMan.cpp" line="672"/>
+        <location filename="SandMan.cpp" line="518"/>
+        <location filename="SandMan.cpp" line="673"/>
         <source>Is Window Sandboxed?</source>
         <oldsource>Is Window Sandboxed</oldsource>
         <translation>Är fönstret sandlådat?</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="552"/>
+        <location filename="SandMan.cpp" line="553"/>
         <source>Show Hidden Boxes</source>
         <translation>Visa dolda lådor</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="554"/>
+        <location filename="SandMan.cpp" line="555"/>
         <source>Show All Sessions</source>
         <translation>Visa alla sessioner</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="571"/>
+        <location filename="SandMan.cpp" line="572"/>
         <source>Refresh View</source>
         <translation>Uppdatera översikten</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="577"/>
+        <location filename="SandMan.cpp" line="578"/>
         <source>Clean Up</source>
         <translation>Rensa</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="578"/>
+        <location filename="SandMan.cpp" line="579"/>
         <source>Cleanup Processes</source>
         <translation>Rensa processer</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="580"/>
+        <location filename="SandMan.cpp" line="581"/>
         <source>Cleanup Message Log</source>
         <translation>Rensa meddelandeloggen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="581"/>
+        <location filename="SandMan.cpp" line="582"/>
         <source>Cleanup Trace Log</source>
         <translation>Rensa spårloggen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="582"/>
+        <location filename="SandMan.cpp" line="583"/>
         <source>Cleanup Recovery Log</source>
         <translation>Rensa återställningsloggen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="584"/>
+        <location filename="SandMan.cpp" line="585"/>
         <source>Keep terminated</source>
         <translation>Behåll avslutad</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="604"/>
+        <location filename="SandMan.cpp" line="605"/>
         <source>&amp;Options</source>
         <translation>&amp;Alternativ</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="605"/>
-        <location filename="SandMan.cpp" line="750"/>
+        <location filename="SandMan.cpp" line="606"/>
+        <location filename="SandMan.cpp" line="751"/>
         <source>Global Settings</source>
         <translation>Globala inställningar</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="639"/>
-        <location filename="SandMan.cpp" line="760"/>
+        <location filename="SandMan.cpp" line="640"/>
+        <location filename="SandMan.cpp" line="761"/>
         <source>Reset all hidden messages</source>
         <translation>Återställ alla dolda meddelanden</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="640"/>
-        <location filename="SandMan.cpp" line="761"/>
+        <location filename="SandMan.cpp" line="641"/>
+        <location filename="SandMan.cpp" line="762"/>
         <source>Reset all GUI options</source>
         <translation>Återställ alla grafiska programpanelalternativ</translation>
     </message>
@@ -3668,17 +3668,17 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
         <translation type="vanished">Ladda om ini-filen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="597"/>
+        <location filename="SandMan.cpp" line="598"/>
         <source>Trace Logging</source>
         <translation>Spårloggning</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="474"/>
+        <location filename="SandMan.cpp" line="475"/>
         <source>Vintage View (like SbieCtrl)</source>
         <translation>Äldre översikt (likt SbieCtrl)</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="484"/>
+        <location filename="SandMan.cpp" line="485"/>
         <source>&amp;Help</source>
         <translation>&amp;Hjälp</translation>
     </message>
@@ -3688,126 +3688,126 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
         <translation type="vanished">Stöd Sandboxie-Plus med en donation</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="494"/>
+        <location filename="SandMan.cpp" line="495"/>
         <source>Visit Support Forum</source>
         <translation>Besök supportforumet</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="493"/>
+        <location filename="SandMan.cpp" line="494"/>
         <source>Online Documentation</source>
         <translation>Dokumentation på nätet</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="496"/>
+        <location filename="SandMan.cpp" line="497"/>
         <source>Check for Updates</source>
         <translation>Sök efter uppdateringar</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="498"/>
+        <location filename="SandMan.cpp" line="499"/>
         <source>About the Qt Framework</source>
         <translation>Om Qt-ramverket</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="499"/>
-        <location filename="SandMan.cpp" line="4419"/>
+        <location filename="SandMan.cpp" line="500"/>
+        <location filename="SandMan.cpp" line="4430"/>
         <source>About Sandboxie-Plus</source>
         <translation>Om Sandboxie-Plus</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="512"/>
-        <location filename="SandMan.cpp" line="656"/>
+        <location filename="SandMan.cpp" line="513"/>
+        <location filename="SandMan.cpp" line="657"/>
         <source>Run Sandboxed</source>
         <translation>Kör sandlådad</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="563"/>
+        <location filename="SandMan.cpp" line="564"/>
         <source>Show File Panel</source>
         <translation>Visa filpanelen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="655"/>
+        <location filename="SandMan.cpp" line="656"/>
         <source>&amp;File</source>
         <translation>&amp;Fil</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="673"/>
+        <location filename="SandMan.cpp" line="674"/>
         <source>Resource Access Monitor</source>
         <translation>Resurstillgångsövervakare</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="706"/>
+        <location filename="SandMan.cpp" line="707"/>
         <source>Programs</source>
         <translation>Program</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="707"/>
+        <location filename="SandMan.cpp" line="708"/>
         <source>Files and Folders</source>
         <translation>Filer och mappar</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="733"/>
+        <location filename="SandMan.cpp" line="734"/>
         <source>Create New Sandbox</source>
         <translation>Skapa ny sandlåda</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="734"/>
+        <location filename="SandMan.cpp" line="735"/>
         <source>Create New Group</source>
         <translation>Skapa ny grupp</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="735"/>
+        <location filename="SandMan.cpp" line="736"/>
         <source>Import Sandbox</source>
         <translation>Importera sandlåda</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="738"/>
+        <location filename="SandMan.cpp" line="739"/>
         <source>Set Container Folder</source>
         <translation>Ange containermapp</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="741"/>
+        <location filename="SandMan.cpp" line="742"/>
         <source>Set Layout and Groups</source>
         <translation>Ange layout och grupper</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="743"/>
+        <location filename="SandMan.cpp" line="744"/>
         <source>Reveal Hidden Boxes</source>
         <translation>Avslöja dolda lådor</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="749"/>
+        <location filename="SandMan.cpp" line="750"/>
         <source>&amp;Configure</source>
         <translation>&amp;Konfigurera</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="753"/>
+        <location filename="SandMan.cpp" line="754"/>
         <source>Program Alerts</source>
         <translation>Programalarm</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="755"/>
+        <location filename="SandMan.cpp" line="756"/>
         <source>Windows Shell Integration</source>
         <translation>Windows skalintegrering</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="757"/>
+        <location filename="SandMan.cpp" line="758"/>
         <source>Software Compatibility</source>
         <translation>Programkompatibilitet</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="766"/>
+        <location filename="SandMan.cpp" line="767"/>
         <source>Lock Configuration</source>
         <translation>Lås konfigurationen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="785"/>
+        <location filename="SandMan.cpp" line="786"/>
         <source>Sandbox %1</source>
         <translation>Sandlåda %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="839"/>
-        <location filename="SandMan.cpp" line="988"/>
+        <location filename="SandMan.cpp" line="840"/>
         <location filename="SandMan.cpp" line="989"/>
+        <location filename="SandMan.cpp" line="990"/>
         <source>Cleanup</source>
         <translation>Rensa</translation>
     </message>
@@ -3820,39 +3820,39 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
         <translation type="vanished">Klicka för att installera uppdateringen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1089"/>
+        <location filename="SandMan.cpp" line="1090"/>
         <source>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Support Sandboxie-Plus on Patreon&lt;/a&gt;</source>
         <translation>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Stöd Sandboxie-Plus på Patreon&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1090"/>
+        <location filename="SandMan.cpp" line="1091"/>
         <source>Click to open web browser</source>
         <translation>Klicka för att öppna webbläsaren</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1243"/>
+        <location filename="SandMan.cpp" line="1244"/>
         <source>Time|Message</source>
         <translation>Tid|Meddelande</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1252"/>
+        <location filename="SandMan.cpp" line="1253"/>
         <source>Sbie Messages</source>
         <translation>Sbie-meddelanden</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1264"/>
+        <location filename="SandMan.cpp" line="1265"/>
         <source>Trace Log</source>
         <translation>Spårlogg</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1274"/>
+        <location filename="SandMan.cpp" line="1275"/>
         <source>Time|Box Name|File Path</source>
         <translation>Tid|Lådnamn|Filsökväg</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="601"/>
-        <location filename="SandMan.cpp" line="711"/>
-        <location filename="SandMan.cpp" line="1284"/>
+        <location filename="SandMan.cpp" line="602"/>
+        <location filename="SandMan.cpp" line="712"/>
+        <location filename="SandMan.cpp" line="1285"/>
         <source>Recovery Log</source>
         <translation>Återställningslogg</translation>
     </message>
@@ -3862,12 +3862,12 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
         <translation>Visa/Dölj</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1351"/>
+        <location filename="SandMan.cpp" line="1352"/>
         <source>Do you want to close Sandboxie Manager?</source>
         <translation>Vill du stänga Sandboxies hanterare?</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1368"/>
+        <location filename="SandMan.cpp" line="1369"/>
         <source>Sandboxie-Plus was running in portable mode, now it has to clean up the created services. This will prompt for administrative privileges.
 
 Do you want to do the clean up?</source>
@@ -3876,12 +3876,12 @@ Do you want to do the clean up?</source>
 Vill du göra rensningen?</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1369"/>
-        <location filename="SandMan.cpp" line="1940"/>
-        <location filename="SandMan.cpp" line="2454"/>
-        <location filename="SandMan.cpp" line="3378"/>
-        <location filename="SandMan.cpp" line="3820"/>
-        <location filename="SandMan.cpp" line="3836"/>
+        <location filename="SandMan.cpp" line="1370"/>
+        <location filename="SandMan.cpp" line="1941"/>
+        <location filename="SandMan.cpp" line="2460"/>
+        <location filename="SandMan.cpp" line="3384"/>
+        <location filename="SandMan.cpp" line="3826"/>
+        <location filename="SandMan.cpp" line="3842"/>
         <source>Don&apos;t show this message again.</source>
         <translation>Visa inte detta meddelande igen.</translation>
     </message>
@@ -3890,7 +3890,7 @@ Vill du göra rensningen?</translation>
         <translation type="vanished">Denna låda ger utökad säkerhetsisolering, den är lämplig för att testa obetrodd programvara.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1565"/>
+        <location filename="SandMan.cpp" line="1566"/>
         <source>This box provides standard isolation, it is suitable to run your software to enhance security.</source>
         <translation>Denna låda ger standardisolering, den är lämplig för att köra din programvara för att utöka säkerheten.</translation>
     </message>
@@ -3907,7 +3907,7 @@ This box prevents access to all user data locations, except explicitly granted i
 Denna låda förhindrar tillgång till alla användardataplatser, förutom de uttryckligt tillåtna i resurstillgångsalternativen.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1745"/>
+        <location filename="SandMan.cpp" line="1746"/>
         <source>Unknown operation &apos;%1&apos; requested via command line</source>
         <translation>Okänd operation &apos;%1&apos; begärd via kommandorad</translation>
     </message>
@@ -3931,37 +3931,37 @@ Denna låda förhindrar tillgång till alla användardataplatser, förutom de ut
         <translation type="vanished">Vill du kontrollera om det finns en ny version av Sandboxie-Plus?</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1938"/>
+        <location filename="SandMan.cpp" line="1939"/>
         <source>Some compatibility templates (%1) are missing, probably deleted, do you want to remove them from all boxes?</source>
         <translation>Några kompatibilitetsmallar (%1) saknas, troligen raderade, vill du ta bort dem från alla lådor?</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1965"/>
+        <location filename="SandMan.cpp" line="1966"/>
         <source>Cleaned up removed templates...</source>
         <translation>Rensade borttagna mallar...</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2141"/>
+        <location filename="SandMan.cpp" line="2142"/>
         <source>Executing OnBoxDelete: %1</source>
         <translation>Verkställer &quot;Vidlådraderande&quot;: %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2166"/>
+        <location filename="SandMan.cpp" line="2167"/>
         <source>Auto Deleting %1 Content</source>
         <translation>Autoraderar %1 innehåll</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2243"/>
+        <location filename="SandMan.cpp" line="2244"/>
         <source>Removed Shortcut: %1</source>
         <translation>Tog bort genväg: %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2334"/>
+        <location filename="SandMan.cpp" line="2335"/>
         <source>Added Shortcut to: %1</source>
         <translation>Adderade genväg till: %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2394"/>
+        <location filename="SandMan.cpp" line="2400"/>
         <source>Auto deleting content of %1</source>
         <translation>Autoraderar innehåll i %1</translation>
     </message>
@@ -3970,17 +3970,17 @@ Denna låda förhindrar tillgång till alla användardataplatser, förutom de ut
         <translation type="vanished">Installationskatalog: %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2431"/>
+        <location filename="SandMan.cpp" line="2437"/>
         <source>Sandboxie-Plus Version: %1 (%2)</source>
         <translation>Sandboxie-Plus version: %1 (%2)</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2432"/>
+        <location filename="SandMan.cpp" line="2438"/>
         <source>Current Config: %1</source>
         <translation>Nuvarande konfiguration: %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2433"/>
+        <location filename="SandMan.cpp" line="2439"/>
         <source>Data Directory: %1</source>
         <translation>Datakatalog: %1</translation>
     </message>
@@ -3989,7 +3989,7 @@ Denna låda förhindrar tillgång till alla användardataplatser, förutom de ut
         <translation type="vanished">   -   Portabel</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2451"/>
+        <location filename="SandMan.cpp" line="2457"/>
         <source>Sandboxie-Plus was started in portable mode, do you want to put the Sandbox folder into its parent directory?
 Yes will choose: %1
 No will choose: %2</source>
@@ -3998,45 +3998,45 @@ Ja väljer: %1
 Nej väljer: %2</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2497"/>
+        <location filename="SandMan.cpp" line="2503"/>
         <source> for Personal use</source>
         <translation> för personlig användning</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2499"/>
+        <location filename="SandMan.cpp" line="2505"/>
         <source>   -   for Non-Commercial use ONLY</source>
         <translation>   -   för icke-kommersiell användning ENDAST</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2528"/>
+        <location filename="SandMan.cpp" line="2534"/>
         <source>Default sandbox not found; creating: %1</source>
         <translation>Standardsandlåda hittades inte; skapar: %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2592"/>
+        <location filename="SandMan.cpp" line="2598"/>
         <source>Do you want the setup wizard to be omitted?</source>
         <translation>Vill du att installationsguiden blir utelämnad?</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2602"/>
+        <location filename="SandMan.cpp" line="2608"/>
         <source>   -   NOT connected</source>
         <translation>   -   INTE ansluten</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2969"/>
+        <location filename="SandMan.cpp" line="2975"/>
         <source>The program %1 started in box %2 will be terminated in 5 minutes because the box was configured to use features exclusively available to project supporters.</source>
         <translation>Programmet %1 startad i låda %2 kommer att avslutas om 5 minuter för att lådan konfigurerades att använda funktioner exklusivt tillgängliga för projektsupportrar.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2971"/>
+        <location filename="SandMan.cpp" line="2977"/>
         <source>The box %1 is configured to use features exclusively available to project supporters, these presets will be ignored.</source>
         <translation>Låda %1 är konfigurerad att använda funktioner exklusivt tillgängliga för projektsupportrar, dessa inställningar kommer ignoreras.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2952"/>
-        <location filename="SandMan.cpp" line="2960"/>
-        <location filename="SandMan.cpp" line="2972"/>
-        <location filename="SandMan.cpp" line="3051"/>
+        <location filename="SandMan.cpp" line="2958"/>
+        <location filename="SandMan.cpp" line="2966"/>
+        <location filename="SandMan.cpp" line="2978"/>
+        <location filename="SandMan.cpp" line="3057"/>
         <source>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
         <translation>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Bli en projektsupporter&lt;/a&gt;, och få ett &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supportercertifikat&lt;/a&gt;</translation>
     </message>
@@ -4049,7 +4049,7 @@ Nej väljer: %2</translation>
         <translation type="vanished">%1 (%2): </translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3062"/>
+        <location filename="SandMan.cpp" line="3068"/>
         <source>The selected feature set is only available to project supporters. Processes started in a box with this feature set enabled without a supporter certificate will be terminated after 5 minutes.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
         <translation>Den valda funktionsuppsättningen är endast tillgänglig för projektsupportrar. Processer startade i en låda med denna funktionsuppsättning aktiverad utan ett supportercertifikat kommer att avslutas efter 5 minuter.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Bli en projektsupporter&lt;/a&gt;, och få ett &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supportercertifikat&lt;/a&gt;</translation>
     </message>
@@ -4058,22 +4058,22 @@ Nej väljer: %2</translation>
         <translation type="vanished">Evalueringsperioden har utgått!</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3193"/>
+        <location filename="SandMan.cpp" line="3199"/>
         <source>The supporter certificate is not valid for this build, please get an updated certificate</source>
         <translation>Supportercertifikatet är inte giltigt för detta bygge, vänligen skaffa ett uppdaterat certifikat</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3196"/>
+        <location filename="SandMan.cpp" line="3202"/>
         <source>The supporter certificate has expired%1, please get an updated certificate</source>
         <translation>Supportercertifikatet har utgått%1, vänligen skaffa ett uppdaterat certifikat</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3197"/>
+        <location filename="SandMan.cpp" line="3203"/>
         <source>, but it remains valid for the current build</source>
         <translation>, men det förblir giltigt för nuvarande bygge</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3199"/>
+        <location filename="SandMan.cpp" line="3205"/>
         <source>The supporter certificate will expire in %1 days, please get an updated certificate</source>
         <translation>Supportercertifikatet utgår om %1 dagar, vänligen skaffa ett uppdaterat certifikat</translation>
     </message>
@@ -4133,17 +4133,17 @@ Nej väljer: %2</translation>
 </translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3240"/>
+        <location filename="SandMan.cpp" line="3246"/>
         <source>Only Administrators can change the config.</source>
         <translation>Endast administratörer kan ändra konfigurationen.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3250"/>
+        <location filename="SandMan.cpp" line="3256"/>
         <source>Please enter the configuration password.</source>
         <translation>Vänligen för in konfigurationslösenordet.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3258"/>
+        <location filename="SandMan.cpp" line="3264"/>
         <source>Login Failed: %1</source>
         <translation>Inloggning misslyckades: %1</translation>
     </message>
@@ -4156,7 +4156,7 @@ Nej väljer: %2</translation>
         <translation type="vanished">7-zip arkiv (*.7z)</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3287"/>
+        <location filename="SandMan.cpp" line="3293"/>
         <source>Do you want to terminate all processes in all sandboxes?</source>
         <translation>Vill du avsluta alla processer i alla sandlådor?</translation>
     </message>
@@ -4165,39 +4165,39 @@ Nej väljer: %2</translation>
         <translation type="vanished">Avsluta alla utan att fråga</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3338"/>
+        <location filename="SandMan.cpp" line="3344"/>
         <source>Please enter the duration, in seconds, for disabling Forced Programs rules.</source>
         <translation>Vänligen för in varaktigheten, i sekunder, för inaktivering av tvingade programs regler.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3377"/>
+        <location filename="SandMan.cpp" line="3383"/>
         <source>Sandboxie-Plus was started in portable mode and it needs to create necessary services. This will prompt for administrative privileges.</source>
         <translation>Sandboxie-Plus startades i portabelt läge och det behöver skapa nödvändiga tjänster. Detta ger förfrågan om administrativa rättigheter.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3411"/>
+        <location filename="SandMan.cpp" line="3417"/>
         <source>CAUTION: Another agent (probably SbieCtrl.exe) is already managing this Sandboxie session, please close it first and reconnect to take over.</source>
         <translation>FÖRSIKTIG: En annan agent (troligen SbieCtrl.exe) hanterar redan denna Sandboxie-session, vänligen stäng den först och återanslut för att ta över.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3514"/>
-        <location filename="SandMan.cpp" line="3516"/>
-        <location filename="SandMan.cpp" line="4095"/>
+        <location filename="SandMan.cpp" line="3520"/>
+        <location filename="SandMan.cpp" line="3522"/>
+        <location filename="SandMan.cpp" line="4101"/>
         <source>Sandboxie-Plus - Error</source>
         <translation>Sandboxie-Plus - Fel</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3514"/>
+        <location filename="SandMan.cpp" line="3520"/>
         <source>Failed to stop all Sandboxie components</source>
         <translation>Lyckades inte stoppa alla Sandboxie-komponenter</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3516"/>
+        <location filename="SandMan.cpp" line="3522"/>
         <source>Failed to start required Sandboxie components</source>
         <translation>Lyckades inte starta krävda Sandboxie-komponenter</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3518"/>
+        <location filename="SandMan.cpp" line="3524"/>
         <source>Maintenance operation failed (%1)</source>
         <translation>Underhållsoperationen misslyckades (%1)</translation>
     </message>
@@ -4206,193 +4206,193 @@ Nej väljer: %2</translation>
         <translation type="vanished">Underhållsoperationen lyckades</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1073"/>
+        <location filename="SandMan.cpp" line="1074"/>
         <source>Click to run installer</source>
         <translation>Klicka för att köra installeraren</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1072"/>
+        <location filename="SandMan.cpp" line="1073"/>
         <source>&lt;a href=&quot;sbie://update/installer&quot; style=&quot;color: red;&quot;&gt;There is a new Sandboxie-Plus release %1 ready&lt;/a&gt;</source>
         <translation>&lt;a href=&quot;sbie://update/installer&quot; style=&quot;color: red;&quot;&gt;Det finns en ny Sandboxie-Plus utgivning %1 redo&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="190"/>
-        <location filename="SandMan.cpp" line="2416"/>
+        <location filename="SandMan.cpp" line="191"/>
+        <location filename="SandMan.cpp" line="2422"/>
         <source>Sandboxie-Plus Insider [%1]</source>
         <translation>Sandboxie-Plus Insider [%1]</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="451"/>
+        <location filename="SandMan.cpp" line="452"/>
         <source>Virtual Disks</source>
         <translation>Virtuella diskar</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="491"/>
+        <location filename="SandMan.cpp" line="492"/>
         <source>Contribute to Sandboxie-Plus</source>
         <translation>Bidra till Sandboxie-Plus</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="492"/>
+        <location filename="SandMan.cpp" line="493"/>
         <source>Troubleshooting Wizard</source>
         <translation>Felsökningsguide</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="513"/>
-        <location filename="SandMan.cpp" line="657"/>
+        <location filename="SandMan.cpp" line="514"/>
+        <location filename="SandMan.cpp" line="658"/>
         <source>Suspend All Processes</source>
         <translation>Upphäv alla processer</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="515"/>
-        <location filename="SandMan.cpp" line="659"/>
+        <location filename="SandMan.cpp" line="516"/>
+        <location filename="SandMan.cpp" line="660"/>
         <source>Lock All Encrypted Boxes</source>
         <translation>Lås alla krypterade lådor</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="541"/>
-        <location filename="SandMan.cpp" line="697"/>
+        <location filename="SandMan.cpp" line="542"/>
+        <location filename="SandMan.cpp" line="698"/>
         <source>Restart As Admin</source>
         <translation>Starta om som Admin</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="627"/>
-        <location filename="SandMan.cpp" line="768"/>
-        <location filename="SandMan.cpp" line="1016"/>
+        <location filename="SandMan.cpp" line="628"/>
+        <location filename="SandMan.cpp" line="769"/>
         <location filename="SandMan.cpp" line="1017"/>
+        <location filename="SandMan.cpp" line="1018"/>
         <source>Edit Sandboxie.ini</source>
         <translation>Redigera Sandboxie.ini</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="630"/>
+        <location filename="SandMan.cpp" line="631"/>
         <source>Edit Templates.ini</source>
         <translation>Redigera mallar.ini</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="632"/>
+        <location filename="SandMan.cpp" line="633"/>
         <source>Edit Sandboxie-Plus.ini</source>
         <translation>Redigera Sandboxie-Plus.ini</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="636"/>
-        <location filename="SandMan.cpp" line="771"/>
+        <location filename="SandMan.cpp" line="637"/>
+        <location filename="SandMan.cpp" line="772"/>
         <source>Reload configuration</source>
         <translation>Ladda om konfigurationen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="828"/>
+        <location filename="SandMan.cpp" line="829"/>
         <source>New-Box Menu</source>
         <translation>Ny lådas meny</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="847"/>
+        <location filename="SandMan.cpp" line="848"/>
         <source>Edit-ini Menu</source>
         <translation>Redigera ini-menyn</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="896"/>
+        <location filename="SandMan.cpp" line="897"/>
         <source>Toolbar Items</source>
         <translation>Verktygradsposter</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="898"/>
+        <location filename="SandMan.cpp" line="899"/>
         <source>Reset Toolbar</source>
         <translation>Återställ verktygsrad</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1076"/>
+        <location filename="SandMan.cpp" line="1077"/>
         <source>&lt;a href=&quot;sbie://update/apply&quot; style=&quot;color: red;&quot;&gt;There is a new Sandboxie-Plus update %1 ready&lt;/a&gt;</source>
         <translation>&lt;a href=&quot;sbie://update/apply&quot; style=&quot;color: red;&quot;&gt;Det finns en ny Sandboxie-Plus uppdatering %1 redo&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1077"/>
+        <location filename="SandMan.cpp" line="1078"/>
         <source>Click to apply update</source>
         <translation>Klicka för att tillämpa uppdateringen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1080"/>
+        <location filename="SandMan.cpp" line="1081"/>
         <source>&lt;a href=&quot;sbie://update/check&quot; style=&quot;color: red;&quot;&gt;There is a new Sandboxie-Plus update v%1 available&lt;/a&gt;</source>
         <translation>&lt;a href=&quot;sbie://update/check&quot; style=&quot;color: red;&quot;&gt;Det finns en ny Sandboxie-Plus uppdatering v%1 tillgänglig&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1561"/>
+        <location filename="SandMan.cpp" line="1562"/>
         <source>This box provides &lt;a href=&quot;sbie://docs/security-mode&quot;&gt;enhanced security isolation&lt;/a&gt;, it is suitable to test untrusted software.</source>
         <translation>Denna låda tillhandahåller &lt;a href=&quot;sbie://docs/security-mode&quot;&gt;utökad säkerhetsisolering&lt;/a&gt;, den är lämplig för att prova obetrodda program.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1569"/>
+        <location filename="SandMan.cpp" line="1570"/>
         <source>This box does not enforce isolation, it is intended to be used as an &lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;application compartment&lt;/a&gt; for software virtualization only.</source>
         <translation>Denna låda påtvingar inte isolering, den är menad att användas som en &lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;applikationsbehållare&lt;/a&gt; endast för programvirtualisering.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1572"/>
+        <location filename="SandMan.cpp" line="1573"/>
         <source>This box will be &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;encrypted&lt;/a&gt; and &lt;a href=&quot;sbie://docs/black-box&quot;&gt;access to sandboxed processes will be guarded&lt;/a&gt;.</source>
         <translation>Denna låda kommer bli &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;krypterad&lt;/a&gt; och &lt;a href=&quot;sbie://docs/black-box&quot;&gt;tillgång till sandlådade processer kommer bevakas&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1577"/>
+        <location filename="SandMan.cpp" line="1578"/>
         <source>&lt;br /&gt;&lt;br /&gt;This box &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;prevents access to all user data&lt;/a&gt; locations, except explicitly granted in the Resource Access options.</source>
         <translation>&lt;br /&gt;&lt;br /&gt;Denna låda &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;förhindrar tillgång till alla användardataplatser&lt;/a&gt; , förutom de uttryckligen tillåtna alternativen i Resurstillgång.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1647"/>
-        <location filename="SandMan.cpp" line="1678"/>
+        <location filename="SandMan.cpp" line="1648"/>
+        <location filename="SandMan.cpp" line="1679"/>
         <source>Which box you want to add in?</source>
         <translation>Vilken låda vill du addera i?</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1647"/>
-        <location filename="SandMan.cpp" line="1678"/>
+        <location filename="SandMan.cpp" line="1648"/>
+        <location filename="SandMan.cpp" line="1679"/>
         <source>Type the box name which you are going to set:</source>
         <translation>Skriv lådnamnet vilken du ska ange:</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1664"/>
-        <location filename="SandMan.cpp" line="1669"/>
-        <location filename="SandMan.cpp" line="1673"/>
-        <location filename="SandMan.cpp" line="1685"/>
-        <location filename="SandMan.cpp" line="1689"/>
+        <location filename="SandMan.cpp" line="1665"/>
+        <location filename="SandMan.cpp" line="1670"/>
+        <location filename="SandMan.cpp" line="1674"/>
+        <location filename="SandMan.cpp" line="1686"/>
+        <location filename="SandMan.cpp" line="1690"/>
         <source>Sandboxie-Plus Warning</source>
         <translation>Sandboxie-Plus varning</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1664"/>
+        <location filename="SandMan.cpp" line="1665"/>
         <source>The value is not an existing directory or executable.</source>
         <translation>Värdet är inte en existerande katalog eller verkställare.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1669"/>
-        <location filename="SandMan.cpp" line="1685"/>
+        <location filename="SandMan.cpp" line="1670"/>
+        <location filename="SandMan.cpp" line="1686"/>
         <source>You typed a wrong box name! Nothing was changed.</source>
         <translation>Du skrev ett felaktigt lådnamn! Inget ändrades.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="1673"/>
-        <location filename="SandMan.cpp" line="1689"/>
+        <location filename="SandMan.cpp" line="1674"/>
+        <location filename="SandMan.cpp" line="1690"/>
         <source>User canceled this operation.</source>
         <translation>Användaren avbröt denna operation.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2022"/>
+        <location filename="SandMan.cpp" line="2023"/>
         <source>USB sandbox not found; creating: %1</source>
         <translation>USB-sandlåda hittades inte; skapar: %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2332"/>
+        <location filename="SandMan.cpp" line="2333"/>
         <source>Updated Shortcut to: %1</source>
         <translation>Uppdaterade genväg till :%1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2361"/>
+        <location filename="SandMan.cpp" line="2367"/>
         <source>Executing OnBoxTerminate: %1</source>
         <translation>Verkställer VidLådTerminering:%1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2406"/>
+        <location filename="SandMan.cpp" line="2412"/>
         <source>Auto removing sandbox %1</source>
         <translation>Autoborttager sandlåda %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2565"/>
+        <location filename="SandMan.cpp" line="2571"/>
         <source>Your Windows build %1 exceeds the current support capabilities of your Sandboxie version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.
 Please check if there is an update for sandboxie.</source>
         <oldsource>Your Windows build %1 exceeds the current support capabilities of your Sandboxie version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.
@@ -4401,123 +4401,123 @@ Please check if there is an update for sandboxie.</oldsource>
 Vänligen kontrollera om det finns en uppdatering för Sandboxie.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2574"/>
+        <location filename="SandMan.cpp" line="2580"/>
         <source>Don&apos;t show this message again for the current build.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2581"/>
+        <location filename="SandMan.cpp" line="2587"/>
         <source>Your Windows build %1 exceeds the current known support capabilities of your Sandboxie version, Sandboxie will attempt to use the last-known offsets which may cause system instability.</source>
         <translation>Ditt windows-bygge %1 överstiger de nuvarande kända supportförmågorna av din Sandboxie-version, Sandboxie kommer försöka använda de senast-kända kompensationerna vilket kan orsaka systeminstabilitet.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2772"/>
+        <location filename="SandMan.cpp" line="2778"/>
         <source>Failed to configure hotkey %1, error: %2</source>
         <translation>Lyckades inte konfigurera snabbkommando %1, fel:%2</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2858"/>
-        <location filename="SandMan.cpp" line="2862"/>
         <location filename="SandMan.cpp" line="2864"/>
+        <location filename="SandMan.cpp" line="2868"/>
+        <location filename="SandMan.cpp" line="2870"/>
         <source> (%1)</source>
         <translation> (%1)</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2951"/>
+        <location filename="SandMan.cpp" line="2957"/>
         <source>The box %1 is configured to use features exclusively available to project supporters.</source>
         <translation>Lådan %1 är konfigurerad att använda egenskaper exklusivt tillgängliga till projektsupportrar.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2956"/>
+        <location filename="SandMan.cpp" line="2962"/>
         <source>The box %1 is configured to use features which require an &lt;b&gt;advanced&lt;/b&gt; supporter certificate.</source>
         <translation>Lådan %1 är konfigurerad att använda egenskaper som kräver ett &lt;b&gt;avancerat&lt;b&gt; supportercertifikat.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="2958"/>
-        <location filename="SandMan.cpp" line="3049"/>
+        <location filename="SandMan.cpp" line="2964"/>
+        <location filename="SandMan.cpp" line="3055"/>
         <source>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-upgrade-cert&quot;&gt;Upgrade your Certificate&lt;/a&gt; to unlock advanced features.</source>
         <translation>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-upgrade-cert&quot;&gt;Uppgradera ditt certifikat&lt;/a&gt; för att låsa upp avancerade egenskaper.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3045"/>
+        <location filename="SandMan.cpp" line="3051"/>
         <source>The selected feature requires an &lt;b&gt;advanced&lt;/b&gt; supporter certificate.</source>
         <translation>Den valda egenskapen kräver ett &lt;b&gt;avancerat&lt;b&gt; supportercertifikat.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3047"/>
+        <location filename="SandMan.cpp" line="3053"/>
         <source>&lt;br /&gt;you need to be on the Great Patreon level or higher to unlock this feature.</source>
         <translation>&lt;br /&gt;du behöver vara på nivån Great Patreon eller högre för att låsa upp denna egenskap.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3059"/>
+        <location filename="SandMan.cpp" line="3065"/>
         <source>The selected feature set is only available to project supporters.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
         <translation>De valda egenskaperna är endast tillgängliga för projektsupportrar.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;bli en projektsupporter&lt;/a&gt;, och mottag ett &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supportercertifikat&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3097"/>
+        <location filename="SandMan.cpp" line="3103"/>
         <source>The certificate you are attempting to use has been blocked, meaning it has been invalidated for cause. Any attempt to use it constitutes a breach of its terms of use!</source>
         <translation>Certifikatet du försöker använda har blockerats, vilket menas att det har blivit ogiltigt av en orsak. Varje försök att använda det innebär ett brytande av dess användarvillkor!</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3109"/>
+        <location filename="SandMan.cpp" line="3115"/>
         <source>The Certificate Signature is invalid!</source>
         <translation>Certifikatssignaturen är ogiltig!</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3110"/>
+        <location filename="SandMan.cpp" line="3116"/>
         <source>The Certificate is not suitable for this product.</source>
         <translation>Certifikatet är inte tillämpligt för denna produkt.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3111"/>
+        <location filename="SandMan.cpp" line="3117"/>
         <source>The Certificate is node locked.</source>
         <translation>Certifikatet är nod-låst.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3115"/>
+        <location filename="SandMan.cpp" line="3121"/>
         <source>The support certificate is not valid.
 Error: %1</source>
         <translation>Supportcertifikatet är inte giltigt.
 Fel: %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3288"/>
-        <location filename="SandMan.cpp" line="3313"/>
+        <location filename="SandMan.cpp" line="3294"/>
+        <location filename="SandMan.cpp" line="3319"/>
         <source>Don&apos;t ask in future</source>
         <translation>Fråga inte i framtiden</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3312"/>
+        <location filename="SandMan.cpp" line="3318"/>
         <source>Do you want to terminate all processes in encrypted sandboxes, and unmount them?</source>
         <translation>Vill du avsluta alla processer i krypterade sandlådor, och avmontera dem?</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3415"/>
+        <location filename="SandMan.cpp" line="3421"/>
         <source>&lt;b&gt;ERROR:&lt;/b&gt; The Sandboxie-Plus Manager (SandMan.exe) does not have a valid signature (SandMan.exe.sig). Please download a trusted release from the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get&quot;&gt;official Download page&lt;/a&gt;.</source>
         <translation>&lt;b&gt;FEL:&lt;/b&gt; Sandboxie-Plus hanterare (SandMan.exe) har inte en giltig signatur (SandMan.exe.sig). Vänligen nedladda en betrodd utgåva från den &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get&quot;&gt;officiella nedladdningssidan&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3543"/>
+        <location filename="SandMan.cpp" line="3549"/>
         <source>Executing maintenance operation, please wait...</source>
         <translation>Verkställer underhållsoperationen, vänligen vänta...</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3664"/>
+        <location filename="SandMan.cpp" line="3670"/>
         <source>In the Plus UI, this functionality has been integrated into the main sandbox list view.</source>
         <translation>I användargränssnittet i Plus, har denna funktion integrerats in i huvudsandlådans listöversikt.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3665"/>
+        <location filename="SandMan.cpp" line="3671"/>
         <source>Using the box/group context menu, you can move boxes and groups to other groups. You can also use drag and drop to move the items around. Alternatively, you can also use the arrow keys while holding ALT down to move items up and down within their group.&lt;br /&gt;You can create new boxes and groups from the Sandbox menu.</source>
         <translation>Vid användning av låd-/gruppsnabbmenyn, kan du flytta lådor och grupper till andra grupper. Du kan också dra och släppa för att flytta omkring poster. Alternativt, du kan också använda piltangenterna medans du håller ner ALT för flytta poster upp och ner inom dess grupp.&lt;br /&gt;Du kan skapa nya lådor och grupper från menyn Sandlåda.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3733"/>
+        <location filename="SandMan.cpp" line="3739"/>
         <source>Do you also want to reset hidden message boxes (yes), or only all log messages (no)?</source>
         <translation>Vill du också återställa dolda meddelandelådor (Ja), eller bara alla loggmeddelanden (Nej)?</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3818"/>
+        <location filename="SandMan.cpp" line="3824"/>
         <source>You are about to edit the Templates.ini, this is generally not recommended.
 This file is part of Sandboxie and all change done to it will be reverted next time Sandboxie is updated.</source>
         <oldsource>You are about to edit the Templates.ini, thsi is generally not recommeded.
@@ -4526,279 +4526,279 @@ This file is part of Sandboxie and all changed done to it will be reverted next 
 Denna fil är en del av Sandboxie och alla ändringar gjorda i den återställs nästa gång Sandboxie uppdateras.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3834"/>
+        <location filename="SandMan.cpp" line="3840"/>
         <source>The changes will be applied automatically whenever the file gets saved.</source>
         <translation>Ändringarna tillämpas automatiskt närhelst filen sparas.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3835"/>
+        <location filename="SandMan.cpp" line="3841"/>
         <source>The changes will be applied automatically as soon as the editor is closed.</source>
         <translation>Ändringarna tillämpas automatiskt så fort som redigeraren stängs.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="3898"/>
+        <location filename="SandMan.cpp" line="3904"/>
         <source>Sandboxie config has been reloaded</source>
         <translation>Sandboxie-konfigurationen har laddats om</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4025"/>
+        <location filename="SandMan.cpp" line="4031"/>
         <source>Error Status: 0x%1 (%2)</source>
         <translation>Felstatus: 0x%1 (%2)</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4026"/>
+        <location filename="SandMan.cpp" line="4032"/>
         <source>Unknown</source>
         <translation>Okänd</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4028"/>
+        <location filename="SandMan.cpp" line="4034"/>
         <source>Administrator rights are required for this operation.</source>
         <translation>Administratörsrättigheter krävs för denna operation.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4029"/>
+        <location filename="SandMan.cpp" line="4035"/>
         <source>Failed to execute: %1</source>
         <translation>Lyckades inte verkställa: %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4030"/>
+        <location filename="SandMan.cpp" line="4036"/>
         <source>Failed to connect to the driver</source>
         <translation>Lyckades inte ansluta till drivrutinen</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4031"/>
+        <location filename="SandMan.cpp" line="4037"/>
         <source>Failed to communicate with Sandboxie Service: %1</source>
         <translation>Lyckades inte kommunicera med Sandboxies tjänst: %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4032"/>
+        <location filename="SandMan.cpp" line="4038"/>
         <source>An incompatible Sandboxie %1 was found. Compatible versions: %2</source>
         <translation>En inkompatibel Sandboxie %1 hittades. Kompatibla versioner: %2</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4033"/>
+        <location filename="SandMan.cpp" line="4039"/>
         <source>Can&apos;t find Sandboxie installation path.</source>
         <translation>Kan inte finna Sandboxies installationssökväg.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4034"/>
+        <location filename="SandMan.cpp" line="4040"/>
         <source>Failed to copy configuration from sandbox %1: %2</source>
         <translation>Lyckades inte kopiera konfigurationen från sandlåda %1: %2</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4035"/>
+        <location filename="SandMan.cpp" line="4041"/>
         <source>A sandbox of the name %1 already exists</source>
         <translation>En sandlåda med namnet %1 existerar redan</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4036"/>
+        <location filename="SandMan.cpp" line="4042"/>
         <source>Failed to delete sandbox %1: %2</source>
         <translation>Lyckades inte radera sandlåda %1: %2</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4037"/>
+        <location filename="SandMan.cpp" line="4043"/>
         <source>The sandbox name can not be longer than 32 characters.</source>
         <translation>Sandlådenamnet kan inte vara längre än 32 tecken.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4038"/>
+        <location filename="SandMan.cpp" line="4044"/>
         <source>The sandbox name can not be a device name.</source>
         <translation>Sandlådenamnet kan inte vara ett enhetsnamn.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4039"/>
+        <location filename="SandMan.cpp" line="4045"/>
         <source>The sandbox name can contain only letters, digits and underscores which are displayed as spaces.</source>
         <translation>Sandlådenamnet kan bara innehålla bokstäver, siffror och understrykningar vilka visas som utrymmen.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4040"/>
+        <location filename="SandMan.cpp" line="4046"/>
         <source>Failed to terminate all processes</source>
         <translation>Lyckades inte avsluta alla processer</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4041"/>
+        <location filename="SandMan.cpp" line="4047"/>
         <source>Delete protection is enabled for the sandbox</source>
         <translation>Raderingsskydd är aktiverat för sandlådan</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4042"/>
+        <location filename="SandMan.cpp" line="4048"/>
         <source>All sandbox processes must be stopped before the box content can be deleted</source>
         <translation>Alla sandlådeprocesser måste stoppas innan lådinnehållet kan raderas</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4043"/>
+        <location filename="SandMan.cpp" line="4049"/>
         <source>Error deleting sandbox folder: %1</source>
         <translation>Fel vid radering av sandlådemapp: %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4044"/>
+        <location filename="SandMan.cpp" line="4050"/>
         <source>All processes in a sandbox must be stopped before it can be renamed.</source>
         <oldsource>A all processes in a sandbox must be stopped before it can be renamed.</oldsource>
         <translation>Alla processer i en sandlåda behöver stoppas innan den kan namnändras.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4046"/>
+        <location filename="SandMan.cpp" line="4052"/>
         <source>A sandbox must be emptied before it can be deleted.</source>
         <translation>En sandlåda måste tömmas innan den kan raderas.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4047"/>
+        <location filename="SandMan.cpp" line="4053"/>
         <source>Failed to move directory &apos;%1&apos; to &apos;%2&apos;</source>
         <translation>Lyckades inte flytta katalog &apos;%1&apos; till &apos;%2&apos;</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4048"/>
+        <location filename="SandMan.cpp" line="4054"/>
         <source>Failed to move box image &apos;%1&apos; to &apos;%2&apos;</source>
         <translation>Lyckades inte flytta lådavbild %1 till %2</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4049"/>
+        <location filename="SandMan.cpp" line="4055"/>
         <source>This Snapshot operation can not be performed while processes are still running in the box.</source>
         <translation>Denna ögonblicksbildoperation kan inte utföras medan processer fortfarande kör i lådan.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4050"/>
+        <location filename="SandMan.cpp" line="4056"/>
         <source>Failed to create directory for new snapshot</source>
         <translation>Lyckades inte skapa katalog för ny ögonblicksbild</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4051"/>
+        <location filename="SandMan.cpp" line="4057"/>
         <source>Failed to copy box data files</source>
         <translation>Lyckades inte kopiera låddatafiler</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4052"/>
+        <location filename="SandMan.cpp" line="4058"/>
         <source>Snapshot not found</source>
         <translation>Ögonblicksbild hittades inte</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4053"/>
+        <location filename="SandMan.cpp" line="4059"/>
         <source>Error merging snapshot directories &apos;%1&apos; with &apos;%2&apos;, the snapshot has not been fully merged.</source>
         <translation>Fel vid sammanförande av ögonblicksbildkataloger &apos;%1&apos; med &apos;%2&apos;. Ögonblicksbilden har inte blivit helt sammanförd.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4054"/>
+        <location filename="SandMan.cpp" line="4060"/>
         <source>Failed to remove old snapshot directory &apos;%1&apos;</source>
         <translation>Lyckades inte ta bort gammal ögonblicksbildkatalog &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4055"/>
+        <location filename="SandMan.cpp" line="4061"/>
         <source>Can&apos;t remove a snapshot that is shared by multiple later snapshots</source>
         <translation>Kan inte ta bort en ögonblicksbild som delas av flera senare ögonblicksbilder</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4056"/>
+        <location filename="SandMan.cpp" line="4062"/>
         <source>Failed to remove old box data files</source>
         <translation>Lyckades inte ta bort gamla låddatafiler</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4057"/>
+        <location filename="SandMan.cpp" line="4063"/>
         <source>You are not authorized to update configuration in section &apos;%1&apos;</source>
         <translation>Du är inte berättigad att uppdatera konfigurationen i sektion &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4058"/>
+        <location filename="SandMan.cpp" line="4064"/>
         <source>Failed to set configuration setting %1 in section %2: %3</source>
         <translation>Lyckades inte ange konfigurationsinställning %1 i sektion %2: %3</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4059"/>
+        <location filename="SandMan.cpp" line="4065"/>
         <source>Can not create snapshot of an empty sandbox</source>
         <translation>Kan inte skapa ögonblicksbild av en tom sandlåda</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4060"/>
+        <location filename="SandMan.cpp" line="4066"/>
         <source>A sandbox with that name already exists</source>
         <translation>En sandlåda med det namnet existerar redan</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4061"/>
+        <location filename="SandMan.cpp" line="4067"/>
         <source>The config password must not be longer than 64 characters</source>
         <translation>Konfigurationslösenordet får inte vara längre än 64 tecken</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4062"/>
+        <location filename="SandMan.cpp" line="4068"/>
         <source>The operation was canceled by the user</source>
         <translation>Operationen avbröts av användaren</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4063"/>
+        <location filename="SandMan.cpp" line="4069"/>
         <source>The content of an unmounted sandbox can not be deleted</source>
         <oldsource>The content of an un mounted sandbox can not be deleted</oldsource>
         <translation>Innehållet i en omonterad sandlåda kan inte raderas</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4065"/>
+        <location filename="SandMan.cpp" line="4071"/>
         <source>%1</source>
         <translation>%1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4067"/>
+        <location filename="SandMan.cpp" line="4073"/>
         <source>Import/Export not available, 7z.dll could not be loaded</source>
         <translation>Importera/Exportera ej tillgängligt, 7z.dll kunde ej laddas</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4164"/>
+        <location filename="SandMan.cpp" line="4170"/>
         <source>Do you want to open %1 in a sandboxed or unsandboxed Web browser?</source>
         <translation>Vill du öppna %1 i en sandlådad eller osandlådad webbläsare?</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4168"/>
+        <location filename="SandMan.cpp" line="4174"/>
         <source>Sandboxed</source>
         <translation>Sandlådad</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4169"/>
+        <location filename="SandMan.cpp" line="4175"/>
         <source>Unsandboxed</source>
         <translation>Osandlådad</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4330"/>
+        <location filename="SandMan.cpp" line="4341"/>
         <source>Case Sensitive</source>
         <translation>Skiftlägeskänslig</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4331"/>
+        <location filename="SandMan.cpp" line="4342"/>
         <source>RegExp</source>
         <translation>RegExp</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4332"/>
+        <location filename="SandMan.cpp" line="4343"/>
         <source>Highlight</source>
         <translation>Markera</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4333"/>
+        <location filename="SandMan.cpp" line="4344"/>
         <source>Close</source>
         <translation>Stäng</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4334"/>
+        <location filename="SandMan.cpp" line="4345"/>
         <source>&amp;Find ...</source>
         <translation>&amp;Hitta ...</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4335"/>
+        <location filename="SandMan.cpp" line="4346"/>
         <source>All columns</source>
         <translation>Alla kolumner</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4388"/>
+        <location filename="SandMan.cpp" line="4399"/>
         <source>&lt;h3&gt;About Sandboxie-Plus&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;</source>
         <translation>&lt;h3&gt;Om Sandboxie Plus&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4396"/>
+        <location filename="SandMan.cpp" line="4407"/>
         <source>This copy of Sandboxie-Plus is certified for: %1</source>
         <translation>Denna kopia av Sandboxie Plus är certifierad för: %1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4398"/>
+        <location filename="SandMan.cpp" line="4409"/>
         <source>Sandboxie-Plus is free for personal and non-commercial use.</source>
         <translation>Sandboxie Plus är gratis för personlig och icke-kommersiell användnng.</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4402"/>
+        <location filename="SandMan.cpp" line="4413"/>
         <source>Sandboxie-Plus is an open source continuation of Sandboxie.&lt;br /&gt;Visit &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; for more information.&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;Features: %3&lt;br /&gt;&lt;br /&gt;Installation: %1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt; SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;Icons from &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</source>
         <translation>Sandboxie-Plus är en fortsättning av Sandboxie som öppen källa.&lt;br /&gt;Besök &lt;a href=&quot;https;//sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; för mer information.&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;Egenskaper:%3&lt;br /&gt;&lt;br /&gt;Installation:%1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt;SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;Ikoner från&lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</translation>
     </message>
@@ -4807,7 +4807,7 @@ Denna fil är en del av Sandboxie och alla ändringar gjorda i den återställs 
         <translation type="vanished">Misslyckades att skapa lådarkiv</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4069"/>
+        <location filename="SandMan.cpp" line="4075"/>
         <source>Failed to open the 7z archive</source>
         <translation>Lyckades inte öppna 7z-arkivet</translation>
     </message>
@@ -4820,12 +4820,12 @@ Denna fil är en del av Sandboxie och alla ändringar gjorda i den återställs 
         <translation type="vanished">Den valda 7z-filen är INTE ett lådarkiv</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4073"/>
+        <location filename="SandMan.cpp" line="4079"/>
         <source>Unknown Error Status: 0x%1</source>
         <translation>Okänd felstatus: 0x%1</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4097"/>
+        <location filename="SandMan.cpp" line="4103"/>
         <source>Operation failed for %1 item(s).</source>
         <translation>Operationen misslyckades för %1 post(er).</translation>
     </message>
@@ -4834,7 +4834,7 @@ Denna fil är en del av Sandboxie och alla ändringar gjorda i den återställs 
         <translation type="vanished">Vill du öppna %1 i en sandlådad (Ja) eller osandlådad (Nej) webbläsare?</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4165"/>
+        <location filename="SandMan.cpp" line="4171"/>
         <source>Remember choice for later.</source>
         <translation>Kom ihåg valet till senare.</translation>
     </message>
@@ -5917,7 +5917,7 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
         <translation>Är du säker på att du vill köra programmet utanför sandlådan?</translation>
     </message>
     <message>
-        <location filename="Windows/SelectBoxWindow.cpp" line="266"/>
+        <location filename="Windows/SelectBoxWindow.cpp" line="268"/>
         <source>Please select a sandbox.</source>
         <translation>Vänligen välj en sandlåda.</translation>
     </message>
@@ -9859,27 +9859,27 @@ istället för &quot;*&quot;.</translation>
 <context>
     <name>QPlatformTheme</name>
     <message>
-        <location filename="SandMan.cpp" line="4471"/>
+        <location filename="SandMan.cpp" line="4482"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4472"/>
+        <location filename="SandMan.cpp" line="4483"/>
         <source>Apply</source>
         <translation>Tillämpa</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4473"/>
+        <location filename="SandMan.cpp" line="4484"/>
         <source>Cancel</source>
         <translation>Avbryt</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4474"/>
+        <location filename="SandMan.cpp" line="4485"/>
         <source>&amp;Yes</source>
         <translation>&amp;Ja</translation>
     </message>
     <message>
-        <location filename="SandMan.cpp" line="4475"/>
+        <location filename="SandMan.cpp" line="4486"/>
         <source>&amp;No</source>
         <translation>&amp;Nej</translation>
     </message>
