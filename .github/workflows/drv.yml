@@ -1,0 +1,111 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: 
+      - drv_only
+    paths-ignore:
+      # Case-sensitive paths to ignore on push events
+      - '.editorconfig'
+      - '.gitattributes'
+      - '.gitignore'
+      - 'MergeDbg.cmd'
+      - 'TestCI.cmd'
+      - '.github/codeql/codeql-config.yml'
+      - '.github/ISSUE_TEMPLATE/**'
+      - '.github/workflows/codeql.yml'
+      - '.github/workflows/codespell.yml'
+      - '.github/workflows/hash.yml'
+      - '.github/workflows/lupdate.yml'
+      - '.github/workflows/stale.yml'
+      - '.github/workflows/test.yml'
+      - '.github/workflows/winget.yml'
+      - '.github/FUNDING.yml'
+      - '.github/dependabot.yml'
+      - 'Sandboxie/msgs/report/*.txt'
+      - '**/*.md'
+      - '**/*.html'
+      - '**/*.png'
+      - '**/*.bmp'
+      - '**/LICENSE*'
+      - '**/license*'
+      - '**/README*'
+      - '**/ReadMe*'
+      - '**/INSTALL*'
+      - '**/AUTHORS'
+      - '**/COPYING'
+  pull_request:
+    branches: 
+      - drv_only
+    paths-ignore:
+      # Case-sensitive paths to ignore on pull events
+      - '.editorconfig'
+      - '.gitattributes'
+      - '.gitignore'
+      - 'MergeDbg.cmd'
+      - 'TestCI.cmd'
+      - '.github/codeql/codeql-config.yml'
+      - '.github/ISSUE_TEMPLATE/**'
+      - '.github/workflows/codeql.yml'
+      - '.github/workflows/codespell.yml'
+      - '.github/workflows/hash.yml'
+      - '.github/workflows/lupdate.yml'
+      - '.github/workflows/stale.yml'
+      - '.github/workflows/test.yml'
+      - '.github/workflows/winget.yml'
+      - '.github/FUNDING.yml'
+      - '.github/dependabot.yml'
+      - 'Sandboxie/msgs/report/*.txt'
+      - '**/*.md'
+      - '**/*.html'
+      - '**/*.png'
+      - '**/*.bmp'
+      - '**/LICENSE*'
+      - '**/license*'
+      - '**/README*'
+      - '**/ReadMe*'
+      - '**/INSTALL*'
+      - '**/AUTHORS'
+      - '**/COPYING'
+
+env:
+  forbuildVariables: use Installer\buildVariables.cmd file
+
+jobs:
+  Build_x64:
+    runs-on: windows-2019
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.1.7
+
+      - name: Load Variables from buildVariables.cmd
+        shell: cmd
+        run: |
+          @echo on
+          call "${{ github.workspace }}\Installer\buildVariables.cmd"
+          echo qt6_version=%qt6_version% >> %GITHUB_ENV%
+
+      - name: Setup msbuild
+        uses: microsoft/setup-msbuild@v2
+
+    #
+    # Compile Sandboxie Driver
+    #
+      - name: Build Sandboxie x64 (driver)
+        run: msbuild /t:build Sandboxie\SandboxDrv.sln /p:Configuration="SbieRelease" /p:Platform=x64 -maxcpucount:8
+
+      - name: Archive
+        shell: pwsh
+        run: Compress-Archive Sandboxie\Bin\* SbieDrv.zip
+    #
+    # Release
+    #
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: SbieDrv.zip
+          token: ${{ secrets.RELEASE_TOKEN }}
+
