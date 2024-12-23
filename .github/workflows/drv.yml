@@ -116,6 +116,7 @@ jobs:
         with:
           files: SbieDrv.zip
           token: ${{ secrets.RELEASE_TOKEN }}
+          name: SbieDrv
           tag_name: 0.0.1
           body: The SbieDrv.sys with certificate verification patched. You can use it to debug advanced features in test signing mode.
 
