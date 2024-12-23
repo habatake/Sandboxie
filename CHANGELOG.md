@@ -4,7 +4,17 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
-## [1.15.4 / 5.70.4] - 2024-12-??
+
+
+## [1.15.5 / 5.70.5] - 2024-12-??
+
+### Fixed
+- fixed crash when pressing run as admin with non advanced view
+
+
+
+
+## [1.15.4 / 5.70.4] - 2024-12-19
 
 ### Added
 - added template for Joplin [#4402](https://github.com/sandboxie-plus/Sandboxie/pull/4402) (thanks offhub)
@@ -16,6 +26,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - fixed Firefox tab crashes when running with `ProtectHostImages=y` enabled [#4394](https://github.com/sandboxie-plus/Sandboxie/issues/4394)
   - Only default installation locations are considered; Firefox-based browsers installed outside of these locations may still crash.
   - To prevent this, manually add `DontCopy=<CustomInstallPath>` for custom installation paths to your configuration
+- fixed BSOD "SYSTEM_SERVICE_EXCEPTION (3b)" when opening a DLL from AlertFolder using x64dbg [#4421](https://github.com/sandboxie-plus/Sandboxie/issues/4421)
+- fixed BSoD "CRITICAL_PROCESS_DIED" when terminate all sandboxed programs [#1316](https://github.com/sandboxie-plus/Sandboxie/issues/1316)
+  - Note: we now terminate boxed processes individually instead of terminating using the job object, unless "TerminateJobObject=y" is set
+- fixed Ini Editor Font Selection Not Working After INI Highlighting Feature Added [#4429](https://github.com/sandboxie-plus/Sandboxie/issues/4429)
+- fixed BSOD issue with 'LogMessageEvents=y'
 
 
 
