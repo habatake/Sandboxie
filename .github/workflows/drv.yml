@@ -125,6 +125,6 @@ jobs:
           files: SbieDrv.zip
           token: ${{ secrets.RELEASE_TOKEN }}
           name: SbieDrv
-          tag_name: $env:VERSION
+          tag_name: ${{ $env:VERSION }}
           body: The SbieDrv.sys with certificate verification patched. You can use it to debug advanced features in test signing mode.
 
