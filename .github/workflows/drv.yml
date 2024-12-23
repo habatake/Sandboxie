@@ -112,10 +112,10 @@ jobs:
     #
     # get version number
     #
-    - name: get version number
-      run: |
-        $response = (Invoke-WebRequest -URI https://api.github.com/repos/sandboxie-plus/sandboxie/releases | ConvertFrom-Json)
-        $env:VERSION = $response[0].tag_name
+      - name: get version number
+        run: |
+          $response = (Invoke-WebRequest -URI https://api.github.com/repos/sandboxie-plus/sandboxie/releases | ConvertFrom-Json)
+          $env:VERSION = $response[0].tag_name
     #
     # Release
     #
