@@ -113,10 +113,11 @@ jobs:
     # get version number
     #
       - name: get version number
+        id: version_number
         run: |
-          $response = (Invoke-WebRequest -URI https://api.github.com/repos/sandboxie-plus/sandboxie/releases | ConvertFrom-Json)
+          $response = (Invoke-WebRequest -URI https://api.github.com/repos/sandboxie-plus/sandboxie/releases).Content | ConvertFrom-Json
           $SbieVersion = $response[0].tag_name
-          echo "SBIEVERSION=$SbieVersion" >> $env:GITHUB_ENV
+          echo "SBIEVERSION=$SbieVersion" >> $Env:GITHUB_OUTPUT
     #
     # Release
     #
@@ -126,6 +127,6 @@ jobs:
           files: SbieDrv.zip
           token: ${{ secrets.RELEASE_TOKEN }}
           name: SbieDrv
-          tag_name: ${{ $env:SBIEVERSION }}
+          tag_name: ${{ steps.version_number.outputs.SBIEVERSION}}
           body: The SbieDrv.sys with certificate verification patched. You can use it to debug advanced features in test signing mode.
 
