@@ -1541,9 +1541,16 @@ void CSbieView::OnSandBoxAction(QAction* Action, const QList<CSandBoxPtr>& SandB
 						return;
 				}
 				else {
-					if(QMessageBox::question(this, "Sandboxie-Plus", tr("Do you want to delete the content of the selected sandbox?")
-					, QMessageBox::Yes, QMessageBox::No) != QMessageBox::Yes)
-						return;
+					// https://stackoverflow.com/questions/13111669/yes-no-message-box-using-qmessagebox
+					QMessageBox box;
+					box.setWindowTitle("Sandboxie-Plus");
+					box.setText(message);
+					box.addButton(QMessageBox::Yes);
+					box.addButton(QMessageBox::No);
+					box.defaultButton(QMessageBox::No);
+					// https://stackoverflow.com/questions/23806657/qmessageboxcritical-make-it-stay-on-top
+					box.setWindowFlags(box.windowFlags() | Qt::WindowStaysOnTopHint);
+					if (box.exec() != QMessageBox::Yes) return;
 				}
 			}
 
