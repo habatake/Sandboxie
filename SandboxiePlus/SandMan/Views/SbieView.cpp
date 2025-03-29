@@ -1541,15 +1541,7 @@ void CSbieView::OnSandBoxAction(QAction* Action, const QList<CSandBoxPtr>& SandB
 						return;
 				}
 				else {
-					// https://stackoverflow.com/questions/13111669/yes-no-message-box-using-qmessagebox
-					QMessageBox box;
-					box.setWindowTitle("Sandboxie-Plus");
-					box.setText(message);
-					box.addButton(QMessageBox::Yes);
-					box.addButton(QMessageBox::No);
-					box.defaultButton(QMessageBox::No);
-					// https://stackoverflow.com/questions/23806657/qmessageboxcritical-make-it-stay-on-top
-					box.setWindowFlags(box.windowFlags() | Qt::WindowStaysOnTopHint);
+					QMessageBox box = QMessageBox("Sandboxie-Plus", message, QMessageBox::Question, QMessageBox::Yes, QMessageBox::No, this, Qt::WindowStaysOnTopHint);
 					if (box.exec() != QMessageBox::Yes) return;
 				}
 			}
