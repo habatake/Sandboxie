@@ -1,0 +1,90 @@
+name: Build Driver
+
+env:
+  forbuildVariables: use Installer\buildVariables.cmd file
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: [Fetch Upstream]
+    types:
+      - completed
+
+jobs:
+  Build_x64:
+    runs-on: windows-2019
+    timeout-minutes: 45
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.1.7
+      - name: Load Variables from buildVariables.cmd
+        shell: cmd
+        run: |
+          @echo on
+          call "${{ github.workspace }}\Installer\buildVariables.cmd"
+          echo qt6_version=%qt6_version% >> %GITHUB_ENV%
+      - name: Setup msbuild
+        uses: microsoft/setup-msbuild@v2
+      #
+      # get version number
+      #
+      - name: get version number
+        id: version_number
+        run: |
+          $response = (Invoke-WebRequest -URI https://api.github.com/repos/sandboxie-plus/sandboxie/releases).Content | ConvertFrom-Json
+          $SbieVersion_remote = $response[0].tag_name
+          echo "SBIEVERSION=$SbieVersion_remote" >> $Env:GITHUB_OUTPUT
+          $response = (Invoke-WebRequest -URI https://api.github.com/repos/habatake/sandboxie/releases).Content | ConvertFrom-Json
+          $SbieVersion_local = $response[0].tag_name
+
+          if ($SbieVersion_remote -eq $SbieVersion_local)
+          {
+            gh run cancel ${{ github.run_id }}
+            gh run watch ${{ github.run_id }} 
+          }
+        env: 
+          GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+    #
+    # Patch Driver
+    #
+      - name: patch
+        run: |
+          $verifyc = Get-Content "Sandboxie\core\drv\verify.c" -Raw
+          $func_pos = $verifyc.IndexOf("NTSTATUS KphVerifySignature")
+          $patch_pos = $verifyc.IndexOf("{",$func_pos)
+          $verifyc.Insert($patch_pos + 1,"return 0;") | Out-File -Encoding utf8 "Sandboxie\core\drv\verify.c"
+    #
+    # Compile Sandboxie Driver
+    #
+      - name: Build Sandboxie x64 (driver)
+        run: msbuild /t:build Sandboxie\SandboxDrv.sln /p:Configuration="SbieRelease" /p:Platform=x64 -maxcpucount:8
+
+      - name: Archive
+        shell: pwsh
+        run: Compress-Archive Sandboxie\Bin\* SbieDrv.zip
+
+      - name: hash
+        shell: pwsh
+        run: (Get-FileHash SbieDrv.zip).Hash + "  SbieDrv.zip" | Out-File -Encoding utf8 SbieDrv.zip.sha256
+
+    #
+    # Release
+    #
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            SbieDrv.zip
+            SbieDrv.zip.sha256
+          token: ${{ secrets.RELEASE_TOKEN }}
+          name: ${{ steps.version_number.outputs.SBIEVERSION}}
+          tag_name: ${{ steps.version_number.outputs.SBIEVERSION}}
+          body: |
+            The SbieDrv.sys with certificate verification patched. You can use it to debug advanced features in test signing mode without actually owning a certificate.
+            An example of Certificate.dat:
+            ```
+            NAME: Sandboxie Tester
+            TYPE: ETERNAL
+            DATE: 01.01.1970
+            SIGNATURE: b25seSBmb3IgdGVzdCBwdXJwb3Nl
+            ```
