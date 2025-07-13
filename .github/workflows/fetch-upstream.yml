@@ -1,0 +1,38 @@
+name: Fetch Upstream
+
+# add github actions permission
+permissions:
+  actions: write
+  contents: write
+
+on:
+  schedule:
+    - cron: "33 9 * * 0" # every week
+  workflow_dispatch:
+
+jobs:
+  update-code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: 
+          token: ${{ secrets.RELEASE_TOKEN }}
+      - name: fetch upstream
+        run: |
+          git remote add upstream https://github.com/sandboxie-plus/Sandboxie
+          git fetch --all
+          git switch drv_only
+      - name: patch workflow
+        run: |
+          mv .github/workflows/drv.yml ../
+          mv .github/workflows/fetch-upstream.yml ../
+          git reset --hard upstream/master
+          mv ../drv.yml .github/workflows/
+          mv ../fetch-upstream.yml .github/workflows/
+      - name: create commit
+        run: |
+          git config --global user.name 'Yoroizuka Nozomi'
+          git config --global user.email '142671432+habatake@users.noreply.github.com'
+          git add .
+          git commit -m "fetch upstream && add workflows"
+          git push -f
