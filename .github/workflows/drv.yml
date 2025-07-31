@@ -12,7 +12,7 @@ on:
 
 jobs:
   Build_x64:
-    runs-on: windows-2019
+    runs-on: windows-2022
     timeout-minutes: 45
     steps:
       - name: Checkout code
