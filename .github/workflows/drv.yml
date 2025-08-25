@@ -68,6 +68,11 @@ jobs:
         shell: pwsh
         run: (Get-FileHash SbieDrv.zip).Hash + "  SbieDrv.zip" | Out-File -Encoding utf8 SbieDrv.zip.sha256
 
+      - name: generate certificate
+        shell: bash
+        run: |
+          echo -e "NAME: Sandboxie Tester\nTYPE: ETERNAL\nDATE: 01.01.1970\nSIGNATURE: b25seSBmb3IgdGVzdCBwdXJwb3Nl" > Certificate.dat
+
     #
     # Release
     #
@@ -77,6 +82,7 @@ jobs:
           files: |
             SbieDrv.zip
             SbieDrv.zip.sha256
+            Certificate.dat
           token: ${{ secrets.RELEASE_TOKEN }}
           name: ${{ steps.version_number.outputs.SBIEVERSION}}
           tag_name: ${{ steps.version_number.outputs.SBIEVERSION}}
